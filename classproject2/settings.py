@@ -25,7 +25,7 @@ SECRET_KEY = 'ans9fo_2qu@)k)e#pawjqn*i!!gkxnyy2x35&mc$^ruj1&9#!o'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'cadettracker.apps.CadettrackerConfig',
 ]
 
 MIDDLEWARE = [
